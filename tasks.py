@@ -14,16 +14,12 @@ Creating Tasks Cheat Sheet:
 - Ensure tasks are descriptive, providing clear instructions and expected deliverables.
 
 Goal:
-- Develop a detailed itinerary, including city selection, attractions, and practical travel advice.
 
 Key Steps for Task Creation:
 1. Identify the Desired Outcome: Define what success looks like for your project.
-    - A detailed 7 day travel itenerary.
 
 2. Task Breakdown: Divide the goal into smaller, manageable tasks that agents can execute.
-    - Itenerary Planning: develop a detailed plan for each day of the trip.
-    - City Selection: Analayze and pick the best cities to visit.
-    - Local Tour Guide: Find a local expert to provide insights and recommendations.
+
 
 3. Assign Tasks to Agents: Match tasks with agents based on their roles and expertise.
 

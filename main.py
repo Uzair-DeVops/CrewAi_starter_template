@@ -8,10 +8,6 @@ from agents import CustomAgents
 from tasks import CustomTasks
 
 
-# This is the main class that you will use to define your custom crew.
-# You can define as many agents and tasks as you want in agents.py and tasks.py
-
-
 class CustomCrew:
     def __init__(self, var1, var2):
         self.var1 = var1
