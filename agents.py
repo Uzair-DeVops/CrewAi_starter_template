@@ -2,7 +2,8 @@ from crewai import Agent
 from textwrap import dedent
 from crewai import LLM
 
-
+from tools.search_tools import SearchTools
+from tools.calculator_tools import CalculatorTools
 
 
 
@@ -31,30 +32,18 @@ Notes:
 """
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# This is an example of how to define custom agents.
-# You can define as many agents as you want.
-# You can also define custom tasks in tasks.py
 class CustomAgents:
     def __init__(self):
         self.OpenAIGPT35 = LLM(model_name="gpt-3.5-turbo", temperature=0.7)
         self.OpenAIGPT4 = LLM(model_name="gpt-4", temperature=0.7)
         self.Ollama = LLM(model="openhermes")
+
+
+
+                    # Instantiate tools
+        self.search_tool = SearchTools()
+        self.calculator_tool = CalculatorTools()
+
 
     def agent_1_name(self):
         return Agent(
